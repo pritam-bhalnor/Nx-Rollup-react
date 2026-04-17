@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
-import { Sidebar } from '@framework-demo/ui';
-import { testRoutes } from '@framework-demo/test';
+import { Sidebar } from 'ui';
+import { testRoutes } from 'test';
 import styles from './app.module.css';
 
 export function App() {

@@ -1,4 +1,4 @@
-import { FormComponent } from '@framework-demo/form';
+import { FormComponent } from 'form';
 
 export const testRoutes = [
   {

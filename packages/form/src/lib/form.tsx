@@ -3,7 +3,7 @@ import styles from './form.module.css';
 export function FormComponent() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Sample Form Test 123</h2>
+      <h2 className={styles.title}>Sample Form Update</h2>
       <form className={styles.form}>
         <div className={styles.formGroup}>
           <label htmlFor="name" className={styles.label}>Name</label>

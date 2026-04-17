@@ -1,20 +1,20 @@
 {
-  "name": "@framework-demo/form",
+  "name": "form",
   "version": "0.0.1",
   "scripts": {
-    "dev": "nx run @framework-demo/form:build --watch"
+    "dev": "rollup -c rollup.config.mjs --watch",
+    "build": "tsc -b tsconfig.lib.json && rollup -c rollup.config.mjs"
   },
   "type": "module",
-  "main": "./dist/index.esm.js",
-  "module": "./dist/index.esm.js",
-  "types": "./dist/index.esm.d.ts",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "@framework-demo/source": "./src/index.ts",
-      "types": "./dist/index.esm.d.ts",
-      "import": "./dist/index.esm.js",
-      "default": "./dist/index.esm.js"
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "default": "./dist/esm/index.js"
     }
   }
 }
