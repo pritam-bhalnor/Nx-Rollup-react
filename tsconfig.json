@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/shell"
+    },
+    {
+      "path": "./packages/ui"
+    },
+    {
+      "path": "./packages/form"
+    },
+    {
+      "path": "./modules/test"
+    }
+  ]
+}
