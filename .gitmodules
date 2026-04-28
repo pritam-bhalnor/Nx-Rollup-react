@@ -1,0 +1,3 @@
+[submodule "common-pkg"]
+	path = common-pkg
+	url = https://github.com/pritam-bhalnor/submodule-cmn-repo.git
