@@ -7,7 +7,7 @@
       "path": "./apps/shell"
     },
     {
-      "path": "./packages/ui"
+      "path": "./common-pkg/ui"
     },
     {
       "path": "./packages/form"

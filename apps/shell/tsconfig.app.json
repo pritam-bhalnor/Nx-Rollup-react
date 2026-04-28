@@ -38,7 +38,7 @@
       "path": "../../modules/test/tsconfig.lib.json"
     },
     {
-      "path": "../../packages/ui/tsconfig.lib.json"
+      "path": "../../common-pkg/ui/tsconfig.lib.json"
     }
   ]
 }

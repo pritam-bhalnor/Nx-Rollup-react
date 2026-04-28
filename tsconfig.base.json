@@ -18,7 +18,7 @@
     "customConditions": ["@framework-demo/source"],
     "baseUrl": ".",
     "paths": {
-      "ui": ["packages/ui/src/index.ts"],
+      "ui": ["common-pkg/ui/src/index.ts"],
       "form": ["packages/form/src/index.ts"],
       "test": ["modules/test/src/index.ts"]
     }

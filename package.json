@@ -69,6 +69,7 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "modules/*"
+    "modules/*",
+    "common-pkg/*"
   ]
 }
