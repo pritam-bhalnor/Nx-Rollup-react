@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "dataprovider",
   "version": "0.0.1",
   "scripts": {
     "dev": "rollup -c rollup.config.mjs --watch",
@@ -17,10 +17,14 @@
       "default": "./dist/esm/index.js"
     }
   },
-  "devDependencies": {
-    "form": "*",
-    "dataprovider": "*",
+  "dependencies": {
+    "@tanstack/react-query": "*",
+    "gql-query-builder": "*",
     "graphql": "*",
     "graphql-request": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
   }
 }

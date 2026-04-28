@@ -9,6 +9,10 @@
   },
   "private": true,
   "dependencies": {
+    "@tanstack/react-query": "^5.100.5",
+    "gql-query-builder": "^3.8.0",
+    "graphql": "^16.13.2",
+    "graphql-request": "^7.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.30.3"
