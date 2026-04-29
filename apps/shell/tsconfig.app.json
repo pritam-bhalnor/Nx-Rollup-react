@@ -39,6 +39,9 @@
     },
     {
       "path": "../../common-pkg/ui/tsconfig.lib.json"
+    },
+    {
+      "path": "../../common-pkg/locale-react/tsconfig.lib.json"
     }
   ]
 }

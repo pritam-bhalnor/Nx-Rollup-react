@@ -7,6 +7,7 @@ import replace from '@rollup/plugin-replace';
 import html from '@rollup/plugin-html';
 import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
+import json from '@rollup/plugin-json';
 import fs from 'fs';
 
 const isDev = process.env.ROLLUP_WATCH;
@@ -43,6 +44,7 @@ export default defineConfig({
       extensions: ['.js', '.jsx', '.ts', '.tsx']
     }),
     commonjs(),
+    json(),
     typescript({
       tsconfig: './tsconfig.app.json',
       sourceMap: true

@@ -21,7 +21,9 @@
       "ui": ["common-pkg/ui/src/index.ts"],
       "form": ["packages/form/src/index.ts"],
       "test": ["modules/test/src/index.ts"],
-      "dataprovider": ["packages/dataprovider/src/index.ts"]
+      "dataprovider": ["packages/dataprovider/src/index.ts"],
+      "locale-react": ["common-pkg/locale-react/src/index.ts"],
+      "locale-next": ["common-pkg/locale-next/src/index.ts"]
     }
   }
 }

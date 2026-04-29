@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "ui": "*",
-    "test": "*"
+    "test": "*",
+    "locale-react": "*"
   }
 }
